@@ -1,6 +1,6 @@
 #ETUDE BASIQUE D UN DOCKERFILE
-##&COPY Copyright TANGUY FOUDA
-Introtion a docker en general et au docker file en particulier.\n
+##Copyright TANGUY FOUDA
+Introtion a docker en general et au docker file en particulier.
 ###COOL
 ###SUPER!!!
 ** Background is looding ***....*** **
