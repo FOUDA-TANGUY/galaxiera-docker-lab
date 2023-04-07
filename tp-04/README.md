@@ -15,5 +15,5 @@
 	4. Commande utiles 
 		- `ss` liste de ports de la machine
 		- `curl` client pour la communication sur une socket 
-			* `curl -GET /var/run/socket.socs https://localhost:2375/images/json
+			* `curl -GET /var/run/socket.socs https://localhost:2375/images/json | jq`
 
