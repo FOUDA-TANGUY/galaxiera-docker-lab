@@ -8,7 +8,7 @@ CMD service apache2 start && sleep infinity
 
 
 
-FROM alpine:latest AS leger
+FROM scratch AS leger
 
 COPY --from=build /lourd /leger
 
