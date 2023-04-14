@@ -1,0 +1,8 @@
+FROM ubuntu:20.04
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update -y
+RUN apt-get install curl -y && apt-get install net-tools -y
+RUN apt-get install apache2 -y
+
+CMD service apache2 start && sleep infinity
